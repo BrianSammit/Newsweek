@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -8,15 +14,30 @@ nav {
   height: 100px;
 }
 
-.badge {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.h2-div {
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .wrap {
   position: relative;
   border-radius: 0;
+}
+
+.wrap span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 15px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+.card-text {
+  font-size: 13px;
 }
 
 .opinion img {
@@ -42,10 +63,6 @@ nav {
   background-color: #f72210;
 }
 
-h5 a {
-  color: black;
-}
-
 .cat-hea a {
   padding: 5px;
   color: #f72210;
@@ -55,7 +72,19 @@ h5 a {
   font-size: 16px;
 }
 
+h5 a {
+  color: black;
+}
+
+.hr-rule{
+  background-color: #9a9a9a;
+  height: 10px;
+}
+
 footer {
   background-color: blue;
   height: 100px;
 }
+
+
+
