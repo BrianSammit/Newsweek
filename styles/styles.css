@@ -145,3 +145,11 @@ footer {
   margin: 0 auto;
   top: -2rem;
 }
+
+.more-stories h5 {
+  font-size: 17px;
+}
+
+.more-stories p {
+  font-size: 13px;
+}
