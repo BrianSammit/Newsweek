@@ -86,5 +86,17 @@ footer {
   height: 100px;
 }
 
-
+.vs {
+  position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed",sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    top: -2rem;
+}
 
