@@ -105,6 +105,28 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  .wrap span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #f72210;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+
+  .size-fifty {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .size-fifty {
+    width: 100%;
+  }
+}
+
 .line {
   height: 5px;
   margin: 10px 0;
