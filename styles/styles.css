@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
   padding: 0;
@@ -11,7 +11,8 @@ body {
 
 nav {
   background-color: brown;
-  height: 100px;
+  height: 50px;
+  padding: 15px;
 }
 
 .h2-div {
@@ -63,6 +64,10 @@ h5 {
   background-color: #f72210;
 }
 
+h5 a {
+  color: black;
+}
+
 .cat-hea a {
   padding: 5px;
   color: #f72210;
@@ -72,11 +77,7 @@ h5 {
   font-size: 16px;
 }
 
-h5 a {
-  color: black;
-}
-
-.hr-rule{
+.hr-rule {
   background-color: #9a9a9a;
   height: 10px;
 }
@@ -86,5 +87,54 @@ footer {
   height: 100px;
 }
 
+.gap {
+  position: relative;
+}
 
+@media (max-width: 425px) {
+  .gap::before {
+    content: "";
+    display: block;
+    height: 18px;
+    background-color: #f4f5f7;
+    border-top: 1px solid #e2e2e2;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    right: -15px;
+  }
+}
 
+.line {
+  height: 5px;
+  margin: 10px 0;
+  background-color: rgba(117, 117, 117, 0.4);
+}
+
+.debate h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 17px;
+}
+
+.media-body p {
+  font-size: 14px;
+}
+
+.span-debate {
+  color: #000;
+}
+
+.vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  top: -2rem;
+}
