@@ -11,8 +11,24 @@ body {
 
 nav {
   background-color: brown;
-  height: 50px;
-  padding: 15px;
+  /* height: 50px;
+  padding: 15px; */
+}
+
+.logo-box img {
+  width: 100%;
+}
+
+.mobile-tablet-navbar ul {
+  width: 65%;
+}
+
+.mobile-tablet-navbar .subscribe {
+  font-size: 0.5rem;
+}
+
+.mobile-tablet-navbar .font-icons {
+  font-size: 0.6arem;
 }
 
 .h2-div {
