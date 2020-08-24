@@ -102,13 +102,12 @@ h5 a {
   height: 10px;
 }
 
-footer {
-  background-color: blue;
-  height: 100px;
-}
-
 .gap {
   position: relative;
+}
+
+.footer-social-media i {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 425px) {
