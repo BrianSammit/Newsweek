@@ -66,10 +66,6 @@ span {
   font-size: 13px;
 }
 
-img {
-  cursor: pointer;
-}
-
 .opinion img {
   width: 64px;
   height: 64px;
@@ -140,6 +136,10 @@ h5 a {
 @media (min-width: 768px) {
   .login {
     font-size: 0.8rem;
+  }
+
+  img {
+    cursor: pointer;
   }
 
   .logo-box img {
