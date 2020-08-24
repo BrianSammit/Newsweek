@@ -24,6 +24,10 @@ nav {
   border-radius: 0;
 }
 
+span {
+  cursor: pointer;
+}
+
 .wrap span {
   position: absolute;
   bottom: 0;
@@ -33,13 +37,22 @@ nav {
   padding: 5px 15px;
 }
 
-h5 {
+.h5-a {
   font-size: 22px;
   color: #000;
 }
 
+.h5-a:hover {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
 .card-text {
   font-size: 13px;
+}
+
+img {
+  cursor: pointer;
 }
 
 .opinion img {
@@ -256,4 +269,8 @@ footer {
 .info-sub {
   position: relative;
   bottom: 20px;
+}
+
+.h5-new {
+  color: #000;
 }
