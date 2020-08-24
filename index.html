@@ -44,101 +44,119 @@
     <!--Sponsored (Hidden mobile)-->
 
     <!-- ========= Navbar container ========= -->
-    
-      <nav class="container-xl">
-        <!-- Mobile & Tablet navbar -->
+
+    <nav class="container-xl">
+      <!-- Mobile & Tablet navbar -->
+      <div
+        class="mobile-tablet-navbar container-fluid d-flex justify-content-between align-items-center d-lg-none"
+      >
         <div
-          class="mobile-tablet-navbar container-fluid d-flex justify-content-between align-items-center d-lg-none"
+          class="logo-box w-25 d-flex justify-content-center align-items-center"
         >
-          <div
-            class="logo-box w-25 d-flex justify-content-center align-items-center"
-          >
-            <a href="#">
-              <img src="./images/newsweek-logo.png" alt="" />
-            </a>
-          </div>
-          <ul class="d-flex justify-content-end align-items-center mt-2">
-            <li class="nav-link d-md-none m-0 p-0">
-              <a href="#" class=""
-                ><i
-                  class="font-icons fa fa-user text-white"
-                  aria-hidden="true"
-                ></i
-              ></a>
+          <a href="#">
+            <img src="./images/newsweek-logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="d-flex justify-content-end align-items-center mt-2">
+          <li class="nav-link d-md-none m-0 p-0">
+            <a href="#" class=""
+              ><i
+                class="font-icons fa fa-user text-white"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <li class="nav-link d-none d-md-inline-block m-0 p-0">
+            <a href="#" class="login text-white font-weight-bold">Login</a>
+          </li>
+          <li class="nav-link">
+            <button
+              type="button"
+              class="subscribe btn btn-warning rounded-pill m-0 py-0 px-2 font-weight-bold text-uppercase"
+            >
+              Subscribe <i class="fas fa-chevron-right"></i>
+            </button>
+          </li>
+          <li class="nav-link m-0 p-0">
+            <a href="#" class=""
+              ><i
+                class="font-icons fa fa-bars text-white"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <!-- End of Mobile & Tablet navbar -->
+      <!-- Red Desktop Navbar -->
+      <div
+        class="desktop-navbar container-fluid d-none d-lg-flex justify-content-between align-items-center"
+      >
+        <div class="weather-info text-white">
+          <ul class="list-inline">
+            <li class="font-weight-bold">
+              <i class="fa fa-cloud" aria-hidden="true"></i> 28°Kigali, RW
             </li>
+            <li>Mon, Aug 24, 2020</li>
+          </ul>
+        </div>
+        <div class="desktop-logo-box w-50 text-center">
+          <a href="#">
+            <img class="w-75" src="./images/newsweek-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="desktop-login-subscribe">
+          <ul class="d-flex justify-content-end align-items-center mt-2">
             <li class="nav-link d-none d-md-inline-block m-0 p-0">
               <a href="#" class="login text-white font-weight-bold">Login</a>
             </li>
             <li class="nav-link">
               <button
                 type="button"
-                class="subscribe btn btn-warning rounded-pill m-0 py-0 px-2 font-weight-bold text-uppercase"
+                class="subscribe btn btn-warning rounded-pill m-0 py-1 px-4 font-weight-bold text-uppercase"
               >
                 Subscribe <i class="fas fa-chevron-right"></i>
               </button>
             </li>
-            <li class="nav-link m-0 p-0">
-              <a href="#" class=""
-                ><i
-                  class="font-icons fa fa-bars text-white"
-                  aria-hidden="true"
-                ></i
-              ></a>
-            </li>
           </ul>
+          <div class="trapezium"></div>
         </div>
-        <!-- End of Mobile & Tablet navbar -->
-        <!-- Red Desktop Navbar -->
-        <div class="desktop-navbar container-fluid d-none d-lg-flex justify-content-between align-items-center">
-          <div class="weather-info text-white">
-            <ul class="list-inline">
-              <li class="font-weight-bold"><i class="fa fa-cloud" aria-hidden="true"></i> 28°Kigali, RW </li>
-              <li>Mon, Aug 24, 2020</li>
-            </ul>
-          </div>
-          <div class="desktop-logo-box w-50 text-center">
-            <a href="#">
-              <img class="w-75" src="./images/newsweek-logo.png" alt="" />
-            </a>
-          </div>
-          <div class="desktop-login-subscribe">
-            <ul class="d-flex justify-content-end align-items-center mt-2">
-              <li class="nav-link d-none d-md-inline-block m-0 p-0">
-                <a href="#" class="login text-white font-weight-bold">Login</a>
-              </li>
-              <li class="nav-link">
-                <button
-                  type="button"
-                  class="subscribe btn btn-warning rounded-pill m-0 py-1 px-4 font-weight-bold text-uppercase"
-                >
-                  Subscribe <i class="fas fa-chevron-right"></i>
-                </button>
-              </li>
-            </ul>
-            <div class="trapezium"></div>
-          </div>
-        </div>
-        
-        <!-- End of Red Desktop Navbar -->
-      </nav>
-      <div class="navbar-container container-xl">
+      </div>
+
+      <!-- End of Red Desktop Navbar -->
+    </nav>
+    <div class="navbar-container container-xl">
       <div class="links-on-desktop">
-        <ul class="upper-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 mt-3 font-weight-bold">
+        <ul
+          class="upper-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 mt-3 font-weight-bold"
+        >
           <li class="border-right border-dark pr-2"><a href="#">U.S</a></li>
           <li class="border-right border-dark pr-2"><a href="#">World</a></li>
-          <li class="border-right border-dark pr-2"><a href="#">Business</a></li>
-          <li class="border-right border-dark pr-2"><a href="#">Tech & Science</a></li>
+          <li class="border-right border-dark pr-2">
+            <a href="#">Business</a>
+          </li>
+          <li class="border-right border-dark pr-2">
+            <a href="#">Tech & Science</a>
+          </li>
           <li class="border-right border-dark pr-2"><a href="#">Culture</a></li>
-          <li class="border-right border-dark pr-2"><a href="#">Newsgeek</a></li>
+          <li class="border-right border-dark pr-2">
+            <a href="#">Newsgeek</a>
+          </li>
           <li class="border-right border-dark pr-2"><a href="#">Sports</a></li>
           <li class="border-right border-dark pr-2"><a href="#">Health</a></li>
-          <li class="border-right border-dark pr-2"><a href="#">The Debate</a></li>
+          <li class="border-right border-dark pr-2">
+            <a href="#">The Debate</a>
+          </li>
           <li class="border-right border-dark pr-2"><a href="#">Vantage</a></li>
           <li><a href="#">Weather</a></li>
-          <li id="search" class="pr-3 ml-3 align-left font-weight-normal">Search  <i class="fa fa-search" aria-hidden="true"></i></li>
+          <li id="search" class="pr-3 ml-3 align-left font-weight-normal">
+            Search <i class="fa fa-search" aria-hidden="true"></i>
+          </li>
         </ul>
-        <hr class="d-none d-lg-block">
-        <ul class="bottom-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 font-weight-bold">
+        <hr class="d-none d-lg-block" />
+        <ul
+          class="bottom-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 font-weight-bold"
+        >
           <li><a class="text-dark" href="#">TRENDING</a></li>
           <li><a href="#">DONALD TRUMP</a></li>
           <li><a href="#">JOE BIDEN</a></li>
@@ -146,17 +164,16 @@
           <li><a href="#">CORONAVIRUS</a></li>
           <li><a href="#">2020 ELECTION</a></li>
         </ul>
-        <hr class="d-none d-lg-block">
+        <hr class="d-none d-lg-block" />
       </div>
-      
     </div>
     <!-- ========= End of Navbar container ========= -->
-    
+
     <div class="main container-xl">
-      <section class="wrapper-top-content colwrap row justify-content-around">
-        <section class="left-column col-md-5 col-lg-3">
+      <div class="wrapper-top-content colwrap row justify-content-around">
+        <div class="left-column col-md-5 col-lg-3">
           <!--Top story top/left-->
-          <section class="top-story-wrapper d-md-none">
+          <div class="top-story-wrapper d-md-none">
             <article class="card wrap border-0">
               <div class="h2-div font-weight-bold my-2">TOP STORY</div>
               <div class="wrap">
@@ -179,29 +196,32 @@
                 successful quarter.
               </p>
             </article>
-          </section>
+          </div>
           <!--End of Top story top/left-->
           <!--Featured stories-->
-          <section class="featured-stories my-3 py-3 gap">
+          <div class="featured-stories my-3 py-3 gap">
             <div class="h2-div font-weight-bold my-2">FEATURED STORIES</div>
             <article class="featured-story card border-0 mb-3">
               <div class="wrap">
                 <a href="#">
                   <img
-                  src="https://d.newsweek.com/en/full/1625567/dnc-tv.jpg?w=397&h=265&q=90&f=eb856af5be8ff6c000571a58ea4a62e3
+                    src="https://d.newsweek.com/en/full/1625567/dnc-tv.jpg?w=397&h=265&q=90&f=eb856af5be8ff6c000571a58ea4a62e3
                     "
-                  class="card-img-top"
-                  alt="walmart-store-front"
-                />
-              </a>
-               <a href="#">
-                 <span class="wrap font-weight-bold badge-secondary px-3"
-                >BUSINESS</span>
-              </a> 
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                  />
+                </a>
+                <a href="#">
+                  <span class="wrap font-weight-bold badge-secondary px-3"
+                    >BUSINESS</span
+                  >
+                </a>
               </div>
               <div class="card-body p-0">
                 <h5 class="card-title font-weight-bold pt-3">
-                 <a class="h5-a" href="#">'I'm Tracking COVID-19 Cases in 950 U.S. Schools'</a> 
+                  <a class="h5-a" href="#"
+                    >'I'm Tracking COVID-19 Cases in 950 U.S. Schools'</a
+                  >
                 </h5>
                 <p class="card-text">
                   I realized that cases of COVID-19 in schools were more
@@ -213,19 +233,24 @@
             </article>
             <article class="featured-story card border-0 mb-3">
               <div class="wrap">
-               <a href=""><img
-                  src="https://d.newsweek.com/en/full/1625662/ice-detention-center.jpg?w=397&h=265&q=90&f=f52a4e038654f0bebbea062d00efa018"
-                  class="card-img-top"
-                  alt="walmart-store-front"
+                <a href=""
+                  ><img
+                    src="https://d.newsweek.com/en/full/1625662/ice-detention-center.jpg?w=397&h=265&q=90&f=f52a4e038654f0bebbea062d00efa018"
+                    class="card-img-top"
+                    alt="walmart-store-front"
                 /></a>
-                <a href="#"><span class="wrap font-weight-bold badge-secondary px-3"
-                  >BUSINESS</span
-                ></a> 
+                <a href="#"
+                  ><span class="wrap font-weight-bold badge-secondary px-3"
+                    >BUSINESS</span
+                  ></a
+                >
               </div>
               <div class="">
                 <h5 class="card-title font-weight-bold pt-3">
-                 <a class="h5-a" href="#">Joe Biden Tells China He Won't Be a Pushover. Will Beijing
-                  Believe Him?</a> 
+                  <a class="h5-a" href="#"
+                    >Joe Biden Tells China He Won't Be a Pushover. Will Beijing
+                    Believe Him?</a
+                  >
                 </h5>
                 <p class="card-text">
                   The former vice president's team argues that Donald Trump may
@@ -236,19 +261,24 @@
             </article>
             <article class="featured-story card border-0 mb-3">
               <div class="wrap">
-               <a href="#"><img
-                src="https://d.newsweek.com/en/full/1625617/defund-police-sign.jpg?w=397&h=265&q=90&f=428a4af5cd6f0ac421292a4e152bf059"
-                class="card-img-top"
-                alt="walmart-store-front"
-              /></a>
-              <a href="#"><span class="wrap font-weight-bold badge-secondary px-3"
-                >BUSINESS</span
-              ></a> 
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1625617/defund-police-sign.jpg?w=397&h=265&q=90&f=428a4af5cd6f0ac421292a4e152bf059"
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                /></a>
+                <a href="#"
+                  ><span class="wrap font-weight-bold badge-secondary px-3"
+                    >BUSINESS</span
+                  ></a
+                >
               </div>
               <div class="">
                 <h5 class="card-title font-weight-bold pt-3">
-                 <a class="h5-a" href="">What The Experts Who Predicted Trump's 2016 Win Think Will
-                  Happen In 2020</a> 
+                  <a class="h5-a" href=""
+                    >What The Experts Who Predicted Trump's 2016 Win Think Will
+                    Happen In 2020</a
+                  >
                 </h5>
                 <p class="card-text">
                   In 2020, even the election experts who called it correctly in
@@ -258,18 +288,23 @@
             </article>
             <article class="featured-story card border-0 mb-3">
               <div class="wrap">
-               <a href="#"><img
-                src="https://d.newsweek.com/en/full/1625634/laura-loomer.jpg?w=397&h=265&q=90&f=92b40e5eafb9a5d800b001b3e28ef3a6"
-                class="card-img-top"
-                alt="walmart-store-front"
-              /></a>
-              <a href="#"> <span class="wrap font-weight-bold badge-secondary px-3"
-                >BUSINESS</span
-              ></a> 
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1625634/laura-loomer.jpg?w=397&h=265&q=90&f=92b40e5eafb9a5d800b001b3e28ef3a6"
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                /></a>
+                <a href="#">
+                  <span class="wrap font-weight-bold badge-secondary px-3"
+                    >BUSINESS</span
+                  ></a
+                >
               </div>
               <div class="">
                 <h5 class="card-title font-weight-bold pt-3">
-                 <a class="h5-a" href="#">CDC Director 'Hopeful' Pandemic Will End by Spring</a> 
+                  <a class="h5-a" href="#"
+                    >CDC Director 'Hopeful' Pandemic Will End by Spring</a
+                  >
                 </h5>
                 <p class="card-text">
                   Three of the leading vaccine candidates—being developed by
@@ -280,19 +315,24 @@
             </article>
             <article class="featured-story card border-0 mb-3">
               <div class="wrap">
-               <a href="#"><img
-                src="https://d.newsweek.com/en/full/1625579/belarus-protest.jpg?w=397&h=265&q=90&f=850310ffcb3a9a155384e7e4517e09d7"
-                class="card-img-top"
-                alt="walmart-store-front"
-              /></a>
-              <a href="#"><span class="wrap font-weight-bold badge-secondary px-3"
-                >BUSINESS</span
-              ></a>              
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1625579/belarus-protest.jpg?w=397&h=265&q=90&f=850310ffcb3a9a155384e7e4517e09d7"
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                /></a>
+                <a href="#"
+                  ><span class="wrap font-weight-bold badge-secondary px-3"
+                    >BUSINESS</span
+                  ></a
+                >
               </div>
               <div class="">
                 <h5 class="card-title font-weight-bold pt-3">
-                 <a class="h5-a" href="#">Trump Compares Himself to 'Great Chess Master' in Talks With
-                  Putin, Xi, Kim</a> 
+                  <a class="h5-a" href="#"
+                    >Trump Compares Himself to 'Great Chess Master' in Talks
+                    With Putin, Xi, Kim</a
+                  >
                 </h5>
                 <p class="card-text">
                   The president spoke of the world leaders being "very sharp"
@@ -301,7 +341,7 @@
                 </p>
               </div>
             </article>
-          </section>
+          </div>
           <!--End of featured stories-->
           <!--Debate & Opinion section-->
           <section class="d-md-none gap">
@@ -464,22 +504,26 @@
           </section>
           <!--End of the debate & Opinion section-->
           <!--Survey & rankings section-->
-          <section class="gap">
+          <div class="gap">
             <article class="top-story card wrap mt-5">
               <div class="wrap">
-               <a href="#"><span class="wrap font-weight-bold badge-secondary text-primary px-3"
-                >BUSINESS</span
-              >
-              <img
-                src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563"
-                class="card-img-top"
-                alt="walmart-store-front"
-              />
-            </a> 
+                <a href="#"
+                  ><span
+                    class="wrap font-weight-bold badge-secondary text-primary px-3"
+                    >BUSINESS</span
+                  >
+                  <img
+                    src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563"
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                  />
+                </a>
               </div>
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">
-                 <a class="h5-a" href="#">What Brands do You Trust the Most?</a> 
+                  <a class="h5-a" href="#"
+                    >What Brands do You Trust the Most?</a
+                  >
                 </h5>
                 <p class="card-text">
                   Tell us for a chance to win. 2020 Brandspark Most Trusted
@@ -489,7 +533,8 @@
             </article>
             <article class="top-story card wrap mt-5">
               <div class="wrap">
-                <span class="wrap font-weight-bold badge-secondary text-primary px-3"
+                <span
+                  class="wrap font-weight-bold badge-secondary text-primary px-3"
                   >TAKE THE SURVEY</span
                 >
                 <img
@@ -500,7 +545,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">
-                 <a class="h5-a" href="#">Best Maternity Hospitals 2020</a> 
+                  <a class="h5-a" href="#">Best Maternity Hospitals 2020</a>
                 </h5>
                 <p class="card-text">
                   The facilities cited by Newsweek are an elite group
@@ -511,7 +556,8 @@
             </article>
             <article class="top-story card wrap mt-5">
               <div class="wrap">
-                <span class="wrap font-weight-bold badge-secondary text-primary px-3"
+                <span
+                  class="wrap font-weight-bold badge-secondary text-primary px-3"
                   >RANKINGS</span
                 >
                 <img
@@ -522,7 +568,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">
-                 <a class="h5-a" href="#">America’s Best Realtors 2020</a> 
+                  <a class="h5-a" href="#">America’s Best Realtors 2020</a>
                 </h5>
                 <p class="card-text">
                   Newsweek partnered with REAL Trends to sort through the data
@@ -540,9 +586,11 @@
                 />
               </div>
               <div class="card-body">
-                 <h5 class="card-title font-weight-bold">
-                 <a class="h5-a" href="#">Newsweek AMPLIFY Launches Strategic Partnership Solutions for
-                  Brands</a> 
+                <h5 class="card-title font-weight-bold">
+                  <a class="h5-a" href="#"
+                    >Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                    for Brands</a
+                  >
                 </h5>
                 <p class="card-text">
                   Newsweek AMPLIFY, the company's performance marketing business
@@ -550,7 +598,7 @@
                 </p>
               </div>
             </article>
-          </section>
+          </div>
           <!--End of survey & rankings section-->
           <!--More Stories section-->
           <section class="d-md-none gap">
@@ -788,20 +836,21 @@
             </div>
           </section>
           <!--End of more Stories section-->
-        </section>
-        <section class="middle-column col-md-7 col-lg-5">
+        </div>
+        <div class="middle-column col-md-7 col-lg-5">
           <!--Top story top/middle-->
-          <section class="top-story-wrapper d-md-block mt-4 pt-2">
+          <div class="top-story-wrapper d-md-block mt-4 pt-2">
             <article class="card wrap border-0">
               <div class="h2-div font-weight-bold my-2">TOP STORY</div>
               <div class="wrap">
-               <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1625559/walmart-store-front.jpg?w=591&h=364&f=c3db857345b9937e99de04cb2003b3d0"
-                  class="card-img-top"
-                  alt="walmart-store-front"
-                />
-                <span class="font-weight-bold px-3">U.S.</span>
-              </a> 
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1625559/walmart-store-front.jpg?w=591&h=364&f=c3db857345b9937e99de04cb2003b3d0"
+                    class="card-img-top"
+                    alt="walmart-store-front"
+                  />
+                  <span class="font-weight-bold px-3">U.S.</span>
+                </a>
               </div>
               <h5 class="card-title font-weight-bold pt-3">
                 <a class="h5-a" href="#"
@@ -815,10 +864,10 @@
                 successful quarter.
               </p>
             </article>
-          </section>
+          </div>
           <!--End of Top story top/middle-->
           <!--My TURN and Culture & travel-->
-          <section class="gap pt-4 pt-md-1 my-md-3 container-md-fluid">
+          <div class="gap pt-4 pt-md-1 my-md-3 container-md-fluid">
             <div class="h2-div font-weight-bold">MY TURN</div>
             <div class="my-turn my-xs-5 row">
               <div class="card col-md border-0">
@@ -855,7 +904,7 @@
             <div class="culture-travel">
               <div class="h2-div font-weight-bold mb-2">CULTURE & TRAVEL</div>
               <div class="culture-travel-wrapper row">
-                <article class="top-story card wrap col-md border-0">
+                <div class="top-story card wrap col-md border-0">
                   <div class="wrap">
                     <span
                       class="wrap badge-secondary font-weight-bold text-dark bg-primary"
@@ -873,8 +922,8 @@
                       Honoring Women
                     </p>
                   </div>
-                </article>
-                <article class="top-story card wrap col-md border-0">
+                </div>
+                <div class="top-story card wrap col-md border-0">
                   <div class="wrap">
                     <span
                       class="wrap badge-secondary font-weight-bold bg-primary text-dark"
@@ -891,8 +940,8 @@
                       Women Changemakers of the Last Century
                     </p>
                   </div>
-                </article>
-                <article class="top-story card wrap col-md border-0">
+                </div>
+                <div class="top-story card wrap col-md border-0">
                   <div class="wrap">
                     <span
                       class="wrap badge-secondary bg-primary font-weight-bold text-dark"
@@ -909,10 +958,10 @@
                       How Likely Is It to Contract COVID-19 on a Plane?
                     </p>
                   </div>
-                </article>
+                </div>
               </div>
             </div>
-          </section>
+          </div>
           <!--End of My TURN and Culture & travel-->
           <!--More Stories section-->
           <section class="d-md-block gap">
@@ -1150,10 +1199,10 @@
             </div>
           </section>
           <!--End of more Stories section-->
-        </section>
+        </div>
         <section class="right-column col-lg-4 mt-lg-3">
           <!--Debate & Opinion section right-column-->
-          <section class="d-md-block gap">
+          <section class="d-none d-md-block gap">
             <div class="debate py-4">
               <div class="h2-div font-weight-bold">THE DEBATE</div>
               <div class="line"></div>
@@ -1166,8 +1215,10 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">Legalization Is the Only Way to Improve the Criminal Justice
-                    System</a> 
+                    <a class="h5-a" href="#"
+                      >Legalization Is the Only Way to Improve the Criminal
+                      Justice System</a
+                    >
                   </h5>
                   <p>
                     BY<span class="span-debate font-weight-bold">
@@ -1183,7 +1234,9 @@
               <div class="media">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 font-weight-bold">
-                   <a class="h5-a" href="#">Legalizing Pot Is a Catastrophic Mistake</a> 
+                    <a class="h5-a" href="#"
+                      >Legalizing Pot Is a Catastrophic Mistake</a
+                    >
                   </h5>
                   <p>
                     BY
@@ -1212,7 +1265,9 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">We Need More American Muslims in Public Life</a> 
+                    <a class="h5-a" href="#"
+                      >We Need More American Muslims in Public Life</a
+                    >
                   </h5>
                   <p class="font-weight-bold">BY SALAM AL-MARAYATI</p>
                 </div>
@@ -1227,7 +1282,10 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">The HIV Pandemic Is Still Raging—and Won't Stop Until We End</a> 
+                    <a class="h5-a" href="#"
+                      >The HIV Pandemic Is Still Raging—and Won't Stop Until We
+                      End</a
+                    >
                     the Stigma
                   </h5>
                   <p class="font-weight-bold">BY DYLLÓN BURNSIDE</p>
@@ -1243,7 +1301,10 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">Could an Israeli-Saudi Peace be Next? Yes, With One Caveat</a> 
+                    <a class="h5-a" href="#"
+                      >Could an Israeli-Saudi Peace be Next? Yes, With One
+                      Caveat</a
+                    >
                   </h5>
                   <p class="font-weight-bold">BY MOHAMMED ALSHEREBI</p>
                 </div>
@@ -1258,7 +1319,9 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">How to Defeat Trump's Plan to Overturn the Election BY</a> 
+                    <a class="h5-a" href="#"
+                      >How to Defeat Trump's Plan to Overturn the Election BY</a
+                    >
                     TIMOTHY
                   </h5>
                   <p class="font-weight-bold">E. WIRTH AND TOM ROGERS</p>
@@ -1274,7 +1337,10 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                    <a class="h5-a" href="#">Trump Should Add These People to His Supreme Court List</a>
+                    <a class="h5-a" href="#"
+                      >Trump Should Add These People to His Supreme Court
+                      List</a
+                    >
                   </h5>
                   <p class="font-weight-bold">BY ILYA SHAPIRO</p>
                 </div>
@@ -1289,7 +1355,10 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">UAE-Israel Peace Presents Turkey With a Clarifying Moment</a> 
+                    <a class="h5-a" href="#"
+                      >UAE-Israel Peace Presents Turkey With a Clarifying
+                      Moment</a
+                    >
                   </h5>
                   <p class="font-weight-bold">BY MICHAEL MAKOVSKY</p>
                 </div>
@@ -1304,7 +1373,9 @@
                 />
                 <div class="media-body">
                   <h5 class="mt-0 font-weight-bold">
-                   <a class="h5-a" href="#">Clearing Al-Jazeera's Smokescreen—and Qatar's</a> 
+                    <a class="h5-a" href="#"
+                      >Clearing Al-Jazeera's Smokescreen—and Qatar's</a
+                    >
                   </h5>
                   <p class="font-weight-bold">BY CLIFF SMITH</p>
                 </div>
@@ -1313,7 +1384,7 @@
           </section>
           <!--End of the debate & Opinion section right-column-->
           <!--Sponsored section right-column-->
-          <section class="d-md-block size-fifty mx-auto">
+          <div class="d-md-block size-fifty mx-auto">
             <article class="top-story card wrap">
               <div class="wrap">
                 <span class="wrap badge-secondary text-primary font-weight-bold"
@@ -1327,8 +1398,10 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                 <a class="h5-a" href="#">What Could a Career in Engineering or Computer Science Do For
-                  You?</a> 
+                  <a class="h5-a" href="#"
+                    >What Could a Career in Engineering or Computer Science Do
+                    For You?</a
+                  >
                 </h5>
                 <p class="card-text">
                   Could this be the perfect time for you to pursue a career in
@@ -1347,23 +1420,24 @@
                   />
                   <div class="media-body pt-3">
                     <h5 class="mt-0 text-uppercase font-weight-bold">
-                     <a class="h5-a" href="#">Start your day with our top 5 articles</a> 
+                      <a class="h5-a" href="#"
+                        >Start your day with our top 5 articles</a
+                      >
                     </h5>
                   </div>
                 </div>
                 <div class="form-group row">
-                  <div class="col-sm-10">
+                  <div class="col-sm-10 mx-auto">
                     <input
                       type="email"
-                      class="form-control"
-                      id="inputEmail3"
+                      class="form-control mx-auto"
                       placeholder="Email address"
                     />
                   </div>
                 </div>
                 <div class="form-group row">
-                  <div class="col-sm-10 offset-sm-2">
-                    <button type="submit" class="btn btn-danger col-12">
+                  <div class="col-sm-10 mx-auto">
+                    <button type="submit" class="btn btn-danger col-12 mx-auto">
                       FREE SIGN UP <i class="fa fa-chevron-right"></i>
                     </button>
                   </div>
@@ -1383,7 +1457,9 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                 <a class="h5-a" href="#">What Makes the Best Lawyers Stand Out?</a> 
+                  <a class="h5-a" href="#"
+                    >What Makes the Best Lawyers Stand Out?</a
+                  >
                 </h5>
                 <p class="card-text">
                   The unthinkable has happened and you need a good lawyer to
@@ -1404,7 +1480,9 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                 <a class="h5-a" href="#">America's Best Addiction Treatment Centers 2020</a> 
+                  <a class="h5-a" href="#"
+                    >America's Best Addiction Treatment Centers 2020</a
+                  >
                 </h5>
                 <p class="card-text">
                   Newsweek partnered with global market research firm Statista
@@ -1426,7 +1504,9 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                 <a class="h5-a" href="#">Best Infection Prevention Products</a> 
+                  <a class="h5-a" href="#"
+                    >Best Infection Prevention Products</a
+                  >
                 </h5>
                 <p class="card-text">
                   During the coronavirus outbreak, health care is more important
@@ -1445,7 +1525,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                 <a class="h5-a" href="#">Best Nursing Homes 2021</a> 
+                  <a class="h5-a" href="#">Best Nursing Homes 2021</a>
                 </h5>
                 <p class="card-text">
                   Newsweek is partnering with the respected global data research
@@ -1455,10 +1535,10 @@
                 </p>
               </div>
             </article>
-          </section>
+          </div>
           <!--End of Sponsored section-->
         </section>
-      </section>
+      </div>
       <section class="magazine col-12 order-7 gap">
         <!--In te magazine section right-column-->
         <div class="in-the-magazine pt-4">
@@ -1474,7 +1554,7 @@
             <div class="the-magazine-title"></div>
             IN THE MAGAZINE
           </div>
-          <hr>
+          <hr />
           <article class="top-story wrap row">
             <div class="col-md-3">
               <div class="wrap border-0">
@@ -1488,10 +1568,10 @@
                 />
               </div>
               <div
-              class="features d-flex justify-content-center font-weight-bold my-3"
-            >
-              SEE ALL FEATURES <i class="fas fa-chevron-right mt-1 ml-2"></i>
-            </div>
+                class="features d-flex justify-content-center font-weight-bold my-3"
+              >
+                SEE ALL FEATURES <i class="fas fa-chevron-right mt-1 ml-2"></i>
+              </div>
             </div>
             <div class="card border-0 col-md-3">
               <img
@@ -1537,8 +1617,8 @@
                 <div class="cat-hea"><a href="#">CULTURE</a></div>
               </div>
               <h5 class="text-decoration-none font-weight-bold">
-                <a class="h5-a" href="#"
-                  > Angel Olsen Goes Solo on 'Whole New Mess'</a
+                <a class="h5-a" href="#">
+                  Angel Olsen Goes Solo on 'Whole New Mess'</a
                 >
               </h5>
             </div>
@@ -1553,14 +1633,17 @@
                 <div class="cat-hea"><a href="#">CULTURE</a></div>
               </div>
               <h5 class="text-decoration-none font-weight-bold">
-                <a class="h5-a" href="#"
-                  > If TikTok is Banned, We Move to the Next Big Thing, Zach King Says</a
+                <a class="h5-a" href="#">
+                  If TikTok is Banned, We Move to the Next Big Thing, Zach King
+                  Says</a
                 >
               </h5>
             </div>
             <div class="col-md-3">
               <div class="wrap-red">
-                <span class="wrap badge-secondary font-weight-bold">IN FOCUSE</span>
+                <span class="wrap badge-secondary font-weight-bold"
+                  >IN FOCUSE</span
+                >
                 <img
                   src="https://d.newsweek.com/en/full/1622025/tropical-damage.jpg?w=480&h=320&q=90&f=d46f0443acc7b62987e8501ad311d650"
                   class="card-img-top"
@@ -1568,207 +1651,253 @@
                 />
               </div>
               <h5 class="text-decoration-none font-weight-bold">
-                  <a class="h5-a" href="#">TROPICAL DAMAGE</a>
+                <a class="h5-a" href="#">TROPICAL DAMAGE</a>
               </h5>
             </div>
-         </div>
-         <!--End of In te magazine section-->
-         <!--Editor´s pic section right-column-->  
-            <div class="row gap">
-              <div class="editors-pic col-12 pt-4">
-                <div
-                  class="d-flex flex-row justify-content-center font-weight-bold my-3"
-                >
-                  <img
-                    class="d-flex align-self-center mr-3"
-                    src="./images/small-logo-newsweek.jpg"
-                    alt="img"
-                    style="width: 25px;"
-                  />
-                  <div class="the-magazine-title"></div>
-                  EDITOR´S PICK
-                </div>
-                <hr>
-              </div>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">HEALTH</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1626013/mother-baby-breast-milk-getty-stock.jpg?w=397&h=295&f=75648b818a952d1d0b39092d784d8a79"
-                    class="card-img-top"
-                    alt="HEALTH"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">Breast Milk May Prevent COVID-19 Due to Antibodies, Scientists Hope</a>
-                  </h5>
-                  <p class="card-text">
-                    At one point on Tuesday, Genevieve clocked wind speeds of around 130 miles per hour, making it a powerful Category 4 hurricane. It has now weakened to a tropical storm after lashing Baja California.
-                  </p>
-                </div>
-              </article>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">NEWS</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1626035/spain-beach-crowd-june-2020.jpg?w=397&h=295&f=4eb999239d9d8cf035ef759bcae16d95"
-                    class="card-img-top"
-                    alt="news"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">Europe Coronavirus Infections Hit 4-Month High in France, Spain</a>
-                  </h5>
-                  <p class="card-text">
-                    Weekly new cases in Spain and France have increased for several consecutive weeks from late June through mid-August.
-                  </p>
-                </div>
-              </article>
-              <article class="card  border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">TECH & SCIENCE</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1626347/hurricane-genevieve.jpg?w=397&h=295&f=0f8e439b4439316bbf1cd52ba988acee"
-                    class="card-img-top"
-                    alt="tech & Science"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">NASA Photo Shows Spectacular, Swirling Storm Genevieve</a>
-                  </h5>
-                  <p class="card-text">
-                    At one point on Tuesday, Genevieve clocked wind speeds of around 130 miles per hour, making it a powerful Category 4 hurricane. It has now weakened to a tropical storm after lashing Baja California..
-                  </p>
-                </div>
-              </article>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">NEWS</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1626386/robert-oneill.jpg?w=397&h=295&f=a4d46390ea3d596c984789072a75e773"
-                    class="card-img-top"
-                    alt="news"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">Navy Seal Attacks Airline Following Ban for Not Wearing Mask </a>
-                  </h5>
-                  <p class="card-text">
-                    Robert O'Neill was criticized for saying he is "not a p***y" while uploading picture of himself without a mask on the flight.
-                  </p>
-                </div>
-              </article>
-              <article class="top-story card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">U.S</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1625977/bannon.jpg?w=397&h=295&f=71c07c2bf233779c345c9196a99673de"
-                    class="card-img-top"
-                    alt="U.S"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                   <a class="h5-a" href="#">'We Build the Wall' Donors Were Warned of 'Huge Risk' Trusting Campaign</a> 
-                  </h5>
-                  <p class="card-text">
-                    Former White House Chief Strategist Steve Bannon is one of four people charged with criminal fraud for funneling hundreds of thousands of dollars from the "We Build the Wall" fund.
-                  </p>
-                </div>
-              </article>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">HEALTH</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1625975/oleander-plant.jpg?w=397&h=295&f=1eb64461232715437baa3563af632e61"
-                    class="card-img-top"
-                    alt="health"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">Don't Take 'Dangerous' Oleandrin for COVID-19 Experts Warn</a>
-                  </h5>
-                  <p class="card-text">
-                    Oleandrin is one of several toxic compounds contained in the oleander plant.
-                  </p>
-                </div>
-              </article>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">BUSINESS</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1625924/donald-trump-border-wall.jpg?w=397&h=295&f=7521bf41b67e5689d6683c6572821e31"
-                    class="card-img-top"
-                    alt="busines"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                    <a class="h5-a" href="#">Trump Claims Mexican City Has Worst Coronavirus Outbreak in 'South America'</a>
-                  </h5>
-                  <p class="card-text">
-                    The president wrongly claimed the Mexican border town of Tijuana was in "South America."
-                  </p>
-                </div>
-              </article>
-              <article class="card border-0 col-md-6 col-lg-3">
-                <div class="wrap">
-                  <span class="wrap badge-secondary font-weight-bold">U.S</span>
-                  <img
-                    src="https://d.newsweek.com/en/full/1626159/hurricane-harvey.jpg?w=397&h=295&f=fb87afe3e0f4bd335cebac8cd3348174"
-                    class="card-img-top"
-                    alt="U.S"
-                  />
-                </div>
-                <div class="my-3">
-                  <h5 class="card-title font-weight-bold">
-                   <a class="h5-a" href="#">U.S. On Track to Get Slammed by 2 Separate Tropical Systems Early Next Week</a> 
-                  </h5>
-                  <p class="card-text">
-                    Both storms could make landfall as hurricanes on the same day, which coincidentally would be on the 3-year anniversary of Hurricane Harvey slamming Texas.
-                  </p>
-                </div>
-              </article>
+          </article>
+        </div>
+        <!--End of In te magazine section-->
+        <!--Editor´s pic section right-column-->
+        <div class="row gap">
+          <div class="editors-pic col-12 pt-4">
+            <div
+              class="d-flex flex-row justify-content-center font-weight-bold my-3"
+            >
+              <img
+                class="d-flex align-self-center mr-3"
+                src="./images/small-logo-newsweek.jpg"
+                alt="img"
+                style="width: 25px;"
+              />
+              <div class="the-magazine-title"></div>
+              EDITOR´S PICK
             </div>
+            <hr />
+          </div>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">HEALTH</span>
+              <img
+                src="https://d.newsweek.com/en/full/1626013/mother-baby-breast-milk-getty-stock.jpg?w=397&h=295&f=75648b818a952d1d0b39092d784d8a79"
+                class="card-img-top"
+                alt="HEALTH"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >Breast Milk May Prevent COVID-19 Due to Antibodies,
+                  Scientists Hope</a
+                >
+              </h5>
+              <p class="card-text">
+                At one point on Tuesday, Genevieve clocked wind speeds of around
+                130 miles per hour, making it a powerful Category 4 hurricane.
+                It has now weakened to a tropical storm after lashing Baja
+                California.
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">NEWS</span>
+              <img
+                src="https://d.newsweek.com/en/full/1626035/spain-beach-crowd-june-2020.jpg?w=397&h=295&f=4eb999239d9d8cf035ef759bcae16d95"
+                class="card-img-top"
+                alt="news"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >Europe Coronavirus Infections Hit 4-Month High in France,
+                  Spain</a
+                >
+              </h5>
+              <p class="card-text">
+                Weekly new cases in Spain and France have increased for several
+                consecutive weeks from late June through mid-August.
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold"
+                >TECH & SCIENCE</span
+              >
+              <img
+                src="https://d.newsweek.com/en/full/1626347/hurricane-genevieve.jpg?w=397&h=295&f=0f8e439b4439316bbf1cd52ba988acee"
+                class="card-img-top"
+                alt="tech & Science"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >NASA Photo Shows Spectacular, Swirling Storm Genevieve</a
+                >
+              </h5>
+              <p class="card-text">
+                At one point on Tuesday, Genevieve clocked wind speeds of around
+                130 miles per hour, making it a powerful Category 4 hurricane.
+                It has now weakened to a tropical storm after lashing Baja
+                California..
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">NEWS</span>
+              <img
+                src="https://d.newsweek.com/en/full/1626386/robert-oneill.jpg?w=397&h=295&f=a4d46390ea3d596c984789072a75e773"
+                class="card-img-top"
+                alt="news"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >Navy Seal Attacks Airline Following Ban for Not Wearing Mask
+                </a>
+              </h5>
+              <p class="card-text">
+                Robert O'Neill was criticized for saying he is "not a p***y"
+                while uploading picture of himself without a mask on the flight.
+              </p>
+            </div>
+          </article>
+          <article class="top-story card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">U.S</span>
+              <img
+                src="https://d.newsweek.com/en/full/1625977/bannon.jpg?w=397&h=295&f=71c07c2bf233779c345c9196a99673de"
+                class="card-img-top"
+                alt="U.S"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >'We Build the Wall' Donors Were Warned of 'Huge Risk'
+                  Trusting Campaign</a
+                >
+              </h5>
+              <p class="card-text">
+                Former White House Chief Strategist Steve Bannon is one of four
+                people charged with criminal fraud for funneling hundreds of
+                thousands of dollars from the "We Build the Wall" fund.
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">HEALTH</span>
+              <img
+                src="https://d.newsweek.com/en/full/1625975/oleander-plant.jpg?w=397&h=295&f=1eb64461232715437baa3563af632e61"
+                class="card-img-top"
+                alt="health"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >Don't Take 'Dangerous' Oleandrin for COVID-19 Experts Warn</a
+                >
+              </h5>
+              <p class="card-text">
+                Oleandrin is one of several toxic compounds contained in the
+                oleander plant.
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold"
+                >BUSINESS</span
+              >
+              <img
+                src="https://d.newsweek.com/en/full/1625924/donald-trump-border-wall.jpg?w=397&h=295&f=7521bf41b67e5689d6683c6572821e31"
+                class="card-img-top"
+                alt="busines"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >Trump Claims Mexican City Has Worst Coronavirus Outbreak in
+                  'South America'</a
+                >
+              </h5>
+              <p class="card-text">
+                The president wrongly claimed the Mexican border town of Tijuana
+                was in "South America."
+              </p>
+            </div>
+          </article>
+          <article class="card border-0 col-md-6 col-lg-3">
+            <div class="wrap">
+              <span class="wrap badge-secondary font-weight-bold">U.S</span>
+              <img
+                src="https://d.newsweek.com/en/full/1626159/hurricane-harvey.jpg?w=397&h=295&f=fb87afe3e0f4bd335cebac8cd3348174"
+                class="card-img-top"
+                alt="U.S"
+              />
+            </div>
+            <div class="my-3">
+              <h5 class="card-title font-weight-bold">
+                <a class="h5-a" href="#"
+                  >U.S. On Track to Get Slammed by 2 Separate Tropical Systems
+                  Early Next Week</a
+                >
+              </h5>
+              <p class="card-text">
+                Both storms could make landfall as hurricanes on the same day,
+                which coincidentally would be on the 3-year anniversary of
+                Hurricane Harvey slamming Texas.
+              </p>
+            </div>
+          </article>
+        </div>
         <!--End of Editor´s pic section-->
         <div class="row sub-new m-0">
-          <div class="col-12 col-lg-7 ">
+          <div class="col-12 col-lg-7">
             <div class="sub pt-5 mb-2 gap font-weight-bold">SUBSCRIBE</div>
             <div class="subcribe mb-4">
               <form class="d-md-flex text-center py-4">
-                <div class="container-img d-md-flex d-inline-block pr-5 mr-5 ml-md-3 pb-md-4">
+                <div
+                  class="container-img d-md-flex d-inline-block pr-5 mr-5 ml-md-3 pb-md-4"
+                >
                   <div class="trump-img">
                     <img
-                    src="https://d.newsweek.com/en/full/1618294/cover-august-14-2020.jpg?w=170&q=95&f=f52aeae07248b670928a3f583a3ebda9"
-                    alt="Card image"
+                      src="https://d.newsweek.com/en/full/1618294/cover-august-14-2020.jpg?w=170&q=95&f=f52aeae07248b670928a3f583a3ebda9"
+                      alt="Card image"
                     />
-                  </div> 
+                  </div>
                   <div class="other-img mt-4">
-                    <img 
-                    src="https://d.newsweek.com/en/full/1621252/cover-august-21-28-2020.jpg?w=170&q=95&f=4ae00bbf46b1f7cbfa7c8f3f3791b19e"
-                    alt="card image"
-                    >
-                  </div> 
+                    <img
+                      src="https://d.newsweek.com/en/full/1621252/cover-august-21-28-2020.jpg?w=170&q=95&f=4ae00bbf46b1f7cbfa7c8f3f3791b19e"
+                      alt="card image"
+                    />
+                  </div>
                 </div>
                 <div class="pl-4 info-sub">
                   <div class="info-trump">
                     <h5 class="font-weight-bold text-md-left mt-md-5">
-                     In-depth Stories You Don't See Elsewhere About Topics You Want to Read! 
+                      In-depth Stories You Don't See Elsewhere About Topics You
+                      Want to Read!
                     </h5>
                   </div>
                   <p class="text-md-left">
                     All Access + Weekly Delivery.
-                    <br>
+                    <br />
                     Choose A Membership That's Perfect for You!
                   </p>
                   <div class="form-group row text-md-left">
                     <div class="col-sm-10">
-                      <button type="submit" class="btn text-white font-weight-bold">
+                      <button
+                        type="submit"
+                        class="btn text-white font-weight-bold"
+                      >
                         SUBSCRIBE <i class="fas fa-chevron-right"></i>
                       </button>
                     </div>
@@ -1778,29 +1907,40 @@
             </div>
           </div>
           <div class="sub mb-2 col-lg-5 pt-lg-5">
-            <div class="sub pt-5 p-md-0 mb-1 font-weight-bold gap">NEWSLETTER</div>
+            <div class="sub pt-5 p-md-0 mb-1 font-weight-bold gap">
+              NEWSLETTER
+            </div>
             <div class="d-md-flex flex-md border">
               <div class="cel d-none d-md-block"></div>
               <form class="d-flex flex-column container-fluid pl-4 p-md-4">
                 <div class="media">
                   <div class="media-body">
-                    <h5 class="mt-3 text-center text-md-left font-weight-bold mt-4 mb-3 h5-new">The Starting 5</h5>
-                    <p class="text-center text-md-left">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <h5
+                      class="mt-3 text-center text-md-left font-weight-bold mt-4 mb-3 h5-new"
+                    >
+                      The Starting 5
+                    </h5>
+                    <p class="text-center text-md-left">
+                      See why nearly a quarter of a million subscribers begin
+                      their day with the Starting 5.
+                    </p>
                   </div>
                 </div>
-                <div class="form-group row">
-                  <div class="col-12">
+                <div class="form-group">
+                  <div class="">
                     <input
                       type="email"
                       class="form-control"
-                      id="inputEmail3"
                       placeholder="Email address"
                     />
                   </div>
                 </div>
-                <div class="form-group row">
-                  <div class="col-12">
-                    <button type="submit" class="btn col-12 text-white font-weight-bold">
+                <div class="form-group">
+                  <div class="">
+                    <button
+                      type="submit"
+                      class="btn text-white font-weight-bold"
+                    >
                       FREE SIGN UP <i class="fas fa-chevron-right"></i>
                     </button>
                   </div>
@@ -1811,43 +1951,107 @@
         </div>
       </section>
     </div>
-    <hr>
+    <hr />
     <footer class="container-xl">
       <div class="d-md-flex justify-content-between">
-        <ul class="list-inline d-md-flex w-50 justify-content-between align-items-end">
-          <li class="w-50"><a href="#"><img class="w-100" src="./images/Newsweek-logo-red.png" alt="Newsweek logo"></a></li>
+        <ul
+          class="list-inline d-md-flex w-50 justify-content-between align-items-end"
+        >
+          <li class="w-50">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./images/Newsweek-logo-red.png"
+                alt="Newsweek logo"
+            /></a>
+          </li>
           <li><a href="" class="text-muted">&copy; 2020 NEWSWEEK</a></li>
         </ul>
         <ul class="footer-social-media list-inline d-flex">
-          <li class="mr-3"><a href="#"><i class="fa fa-facebook-official text-muted" aria-hidden="true"></i></a></li>
-          <li class="mr-3"><a href="#"><i class="fa fa-twitter text-muted" aria-hidden="true"></i></a></li>
-          <li class="mr-3"><a href="#"><i class="fa fa-instagram text-muted" aria-hidden="true"></i></a></li>
-          <li class="mr-3"><a href="#"><i class="fa fa-tumblr text-muted" aria-hidden="true"></i></a></li>
+          <li class="mr-3">
+            <a href="#"
+              ><i
+                class="fa fa-facebook-official text-muted"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <li class="mr-3">
+            <a href="#"
+              ><i class="fa fa-twitter text-muted" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="mr-3">
+            <a href="#"
+              ><i class="fa fa-instagram text-muted" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="mr-3">
+            <a href="#"
+              ><i class="fa fa-tumblr text-muted" aria-hidden="true"></i
+            ></a>
+          </li>
         </ul>
       </div>
-      <hr>
+      <hr />
       <div class="footer-bottom-links list-inline">
         <ul class="editions list-inline d-flex align-items-end">
-          <li class="mr-3  border-right pr-2 mt-1"><a href="#" class="text-muted"><span class="font-weight-bold">Editions:</span> U.S. Edition</a></li>
-          <li class="mr-3  border-right pr-2 mt-1"><a href="#" class="text-muted">日本</a></li>
-          <li class="mr-3  border-right pr-2 mt-1"><a href="#" class="text-muted">Pakistan</a></li>
-          <li class="mr-3  border-right pr-2 mt-1"><a href="#" class="text-muted">Polska</a></li>
+          <li class="mr-3 border-right pr-2 mt-1">
+            <a href="#" class="text-muted"
+              ><span class="font-weight-bold">Editions:</span> U.S. Edition</a
+            >
+          </li>
+          <li class="mr-3 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">日本</a>
+          </li>
+          <li class="mr-3 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Pakistan</a>
+          </li>
+          <li class="mr-3 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Polska</a>
+          </li>
           <li class="mr-3"><a href="#" class="text-muted">România</a></li>
         </ul>
         <ul class="list-inline d-flex flex-wrap">
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">About Us</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Corrections</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Contact Us</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Editorial Guidelines</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Advertise</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Copyright</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Terms & Conditions</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Privacy Policy</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Cookie Policy</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Terms of Sale</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Archive</a></li>
-          <li class="mr-4  border-right pr-2 mt-1"><a href="#" class="text-muted">Announcements</a></li>
-          <li class="mr-4"><a href="#" class="text-muted">Consent preferences</a></li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">About Us</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Corrections</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Contact Us</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Editorial Guidelines</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Advertise</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Copyright</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Terms & Conditions</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Privacy Policy</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Cookie Policy</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Terms of Sale</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Archive</a>
+          </li>
+          <li class="mr-4 border-right pr-2 mt-1">
+            <a href="#" class="text-muted">Announcements</a>
+          </li>
+          <li class="mr-4">
+            <a href="#" class="text-muted">Consent preferences</a>
+          </li>
         </ul>
       </div>
     </footer>
