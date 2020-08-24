@@ -50,6 +50,7 @@ nav {
 
 h5 {
   font-size: 22px;
+  color: #000;
 }
 
 .card-text {
@@ -74,18 +75,22 @@ h5 {
 }
 
 .cat-cov {
-  padding: 5px;
+  padding: 2px 5px;
   color: white;
   background-color: #f72210;
 }
 
 h5 a {
+  font-size: 16px;
   color: black;
 }
 
 .cat-hea a {
-  padding: 5px;
   color: #f72210;
+}
+
+.cat-hea {
+  padding: 2px 5px;
 }
 
 .category {
@@ -141,6 +146,15 @@ footer {
 
   .size-fifty {
     width: 50%;
+  }
+
+  .cel {
+    width: 100%;
+    max-width: 191px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
   }
 }
 
@@ -234,4 +248,67 @@ footer {
 
 .more-stories p {
   font-size: 13px;
+}
+
+.the-magazine-title {
+  color: #000;
+  font-size: 19px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.features {
+  font-size: 18px;
+}
+
+.wrap-red span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #f72210;
+  padding: 5px 15px;
+}
+
+.wrap-red {
+  position: relative;
+  border-radius: 0;
+}
+
+.editors-pic a {
+  font-size: 20px;
+}
+
+.sub {
+  font-size: 16px;
+  color: #f72210;
+}
+
+.subcribe {
+  background-color: #f4f5f6;
+}
+
+.sub-new button {
+  background-color: #f72210;
+}
+
+.container-img {
+  position: relative;
+}
+
+.other-img {
+  vertical-align: middle;
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+
+.trump-img {
+  vertical-align: middle;
+  position: relative;
+  right: 40px;
+  top: 12px;
+}
+
+.info-trump a {
+  font-size: 20px;
 }
