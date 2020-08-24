@@ -43,28 +43,43 @@
     <!--Opinion (Hidden mobile)-->
     <!--Sponsored (Hidden mobile)-->
 
-    <nav class="container-fluid">
-      <div class="mobile-tablet-navbar container-fluid d-flex justify-content-between align-items-center">
-        <div class="logo-box w-25 d-flex justify-content-center align-items-center">
-          <a href="#">
-            <img src="./images/newsweek-logo.png" alt="">
-          </a>
+    <nav class="container-lg">
+        <div
+          class="mobile-tablet-navbar container d-flex justify-content-between align-items-center d-lg-none"
+        >
+          <div
+            class="logo-box w-25 d-flex justify-content-center align-items-center"
+          >
+            <a href="#">
+              <img src="./images/newsweek-logo.png" alt="" />
+            </a>
+          </div>
+          <ul class="d-flex justify-content-end align-items-center mt-2">
+            <li class="nav-link d-md-none m-0 p-0">
+              <a href="#" class=""
+                ><i
+                  class="font-icons fa fa-user text-white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-link d-none d-md-inline-block m-0 p-0">
+              <a href="#" class="login text-white font-weight-bold">Login</a>
+            </li>
+            <li class="nav-link">
+              <button type="button" class="subscribe btn btn-warning m-0 py-0 px-2 font-weight-bold text-uppercase">Subscribe</button>
+            </li>
+            <li class="nav-link m-0 p-0">
+              <a href="#" class=""
+                ><i
+                  class="font-icons fa fa-bars text-white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+          </ul>
         </div>
-        <ul class=" d-flex justify-content-end align-items-center mt-2">
-          <li class="nav-link d-md-none m-0 p-0">
-            <a href="#" class=""><i class="font-icons fa fa-user text-white" aria-hidden="true"></i></a>
-          </li>
-          <li class="nav-link d-none d-md-inline-block m-0 p-0">
-            <a href="#" class=" text-white font-weight-bold">Login</a>
-          </li>
-          <li class="nav-link d-inline-block">
-            <a href="#" class="subscribe border-warning bg-warning text-white">Subscribe></i></a>
-          </li>
-          <li class="nav-link m-0 p-0">
-            <a href="#" class=""><i class="font-icons fa fa-bars text-white" aria-hidden="true"></i></a>
-          </li>
-        </ul>
-      </div>
+      <div class="links-on-desktop"></div>
     </nav>
     <div class="main container-xl">
       <section class="wrapper-top-content colwrap row justify-content-around">

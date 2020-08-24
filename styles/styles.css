@@ -7,28 +7,28 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  min-width: 200px;
 }
 
 nav {
-  background-color: brown;
-  /* height: 50px;
-  padding: 15px; */
+  background-color: #F72210;
+}
+
+.mobile-tablet-navbar {
+  height: 2rem;
 }
 
 .logo-box img {
   width: 100%;
 }
 
-.mobile-tablet-navbar ul {
-  width: 65%;
-}
-
 .mobile-tablet-navbar .subscribe {
   font-size: 0.5rem;
+  border-radius: 15px;
 }
 
 .mobile-tablet-navbar .font-icons {
-  font-size: 0.6arem;
+  font-size: 0.6rem;
 }
 
 .h2-div {
@@ -122,6 +122,14 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .login {
+    font-size: 0.8rem;
+  }
+
+  .logo-box img {
+    width: 65%;
+  }
+
   .wrap span {
     position: absolute;
     bottom: 0;
