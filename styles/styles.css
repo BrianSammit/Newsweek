@@ -14,17 +14,16 @@ nav {
   background-color: #F72210;
 }
 
-.mobile-tablet-navbar {
-  height: 2rem;
-}
-
 .logo-box img {
   width: 100%;
 }
 
+.mobile-tablet-navbar {
+  height: 2rem;
+}
+
 .mobile-tablet-navbar .subscribe {
   font-size: 0.5rem;
-  border-radius: 15px;
 }
 
 .mobile-tablet-navbar .font-icons {
@@ -122,6 +121,7 @@ footer {
 }
 
 @media (min-width: 768px) {
+
   .login {
     font-size: 0.8rem;
   }
@@ -148,6 +148,43 @@ footer {
 @media (min-width: 992px) {
   .size-fifty {
     width: 100%;
+  }
+
+  .desktop-navbar {
+    height: 6rem;
+  }
+
+  .links-on-desktop ul li a {
+    text-decoration: none;
+  }
+
+  .links-on-desktop .upper-bar li a {
+    color: #000;
+  }
+
+  .links-on-desktop .bottom-bar {
+    width: 60%;
+  }
+
+  .links-on-desktop .bottom-bar li a {
+    color: #8F8E92;
+  }
+
+  .trapezium {
+    border-top: 16px solid #f72210;
+    border-left: 15px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 80px;
+    position: relative;
+    top: 1rem;
+    right: -10.3rem;
+  }
+
+  #search {
+    position: relative;
+    right: 1.5rem;
+    color: #8F8E92;
   }
 }
 

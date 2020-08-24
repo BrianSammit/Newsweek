@@ -43,9 +43,12 @@
     <!--Opinion (Hidden mobile)-->
     <!--Sponsored (Hidden mobile)-->
 
-    <nav class="container-lg">
+    <!-- ========= Navbar container ========= -->
+    
+      <nav class="container-xl">
+        <!-- Mobile & Tablet navbar -->
         <div
-          class="mobile-tablet-navbar container d-flex justify-content-between align-items-center d-lg-none"
+          class="mobile-tablet-navbar container-fluid d-flex justify-content-between align-items-center d-lg-none"
         >
           <div
             class="logo-box w-25 d-flex justify-content-center align-items-center"
@@ -67,7 +70,12 @@
               <a href="#" class="login text-white font-weight-bold">Login</a>
             </li>
             <li class="nav-link">
-              <button type="button" class="subscribe btn btn-warning m-0 py-0 px-2 font-weight-bold text-uppercase">Subscribe</button>
+              <button
+                type="button"
+                class="subscribe btn btn-warning rounded-pill m-0 py-0 px-2 font-weight-bold text-uppercase"
+              >
+                Subscribe <i class="fas fa-chevron-right"></i>
+              </button>
             </li>
             <li class="nav-link m-0 p-0">
               <a href="#" class=""
@@ -79,8 +87,71 @@
             </li>
           </ul>
         </div>
-      <div class="links-on-desktop"></div>
-    </nav>
+        <!-- End of Mobile & Tablet navbar -->
+        <!-- Red Desktop Navbar -->
+        <div class="desktop-navbar container-fluid d-none d-lg-flex justify-content-between align-items-center">
+          <div class="weather-info text-white">
+            <ul class="list-inline">
+              <li class="font-weight-bold"><i class="fa fa-cloud" aria-hidden="true"></i> 28°Kigali, RW </li>
+              <li>Mon, Aug 24, 2020</li>
+            </ul>
+          </div>
+          <div class="desktop-logo-box w-50 text-center">
+            <a href="#">
+              <img class="w-75" src="./images/newsweek-logo.png" alt="" />
+            </a>
+          </div>
+          <div class="desktop-login-subscribe">
+            <ul class="d-flex justify-content-end align-items-center mt-2">
+              <li class="nav-link d-none d-md-inline-block m-0 p-0">
+                <a href="#" class="login text-white font-weight-bold">Login</a>
+              </li>
+              <li class="nav-link">
+                <button
+                  type="button"
+                  class="subscribe btn btn-warning rounded-pill m-0 py-1 px-4 font-weight-bold text-uppercase"
+                >
+                  Subscribe <i class="fas fa-chevron-right"></i>
+                </button>
+              </li>
+            </ul>
+            <div class="trapezium"></div>
+          </div>
+        </div>
+        
+        <!-- End of Red Desktop Navbar -->
+      </nav>
+      <div class="navbar-container container-xl">
+      <div class="links-on-desktop">
+        <ul class="upper-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 mt-3 font-weight-bold">
+          <li class="border-right border-dark pr-2"><a href="#">U.S</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">World</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Business</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Tech & Science</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Culture</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Newsgeek</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Sports</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Health</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">The Debate</a></li>
+          <li class="border-right border-dark pr-2"><a href="#">Vantage</a></li>
+          <li><a href="#">Weather</a></li>
+          <li id="search" class="pr-3 ml-3 align-left font-weight-normal">Search  <i class="fa fa-search" aria-hidden="true"></i></li>
+        </ul>
+        <hr class="d-none d-lg-block">
+        <ul class="bottom-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 font-weight-bold">
+          <li><a class="text-dark" href="#">TRENDING</a></li>
+          <li><a href="#">DONALD TRUMP</a></li>
+          <li><a href="#">JOE BIDEN</a></li>
+          <li><a href="#">CHINA</a></li>
+          <li><a href="#">CORONAVIRUS</a></li>
+          <li><a href="#">2020 ELECTION</a></li>
+        </ul>
+        <hr class="d-none d-lg-block">
+      </div>
+      
+    </div>
+    <!-- ========= End of Navbar container ========= -->
+    
     <div class="main container-xl">
       <section class="wrapper-top-content colwrap row justify-content-around">
         <section class="left-column col-md-5 col-lg-3">
