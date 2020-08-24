@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .logo-box img {
@@ -121,7 +121,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-
   .login {
     font-size: 0.8rem;
   }
@@ -167,13 +166,13 @@ footer {
   }
 
   .links-on-desktop .bottom-bar li a {
-    color: #8F8E92;
+    color: #8f8e92;
   }
 
   .trapezium {
     border-top: 16px solid #f72210;
     border-left: 15px solid transparent;
-    border-right: 0px solid transparent;
+    border-right: 0 solid transparent;
     height: 0;
     width: 80px;
     position: relative;
@@ -184,7 +183,7 @@ footer {
   #search {
     position: relative;
     right: 1.5rem;
-    color: #8F8E92;
+    color: #8f8e92;
   }
 }
 
