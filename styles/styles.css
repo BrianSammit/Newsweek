@@ -27,15 +27,23 @@ nav {
 }
 
 .logo-box img {
-  width: 100%;
+  height: 40px;
+}
+
+.fa-user {
+  font-size: 1.3rem;
 }
 
 .mobile-tablet-navbar {
-  height: 2rem;
+  height: 3rem;
 }
 
 .mobile-tablet-navbar .subscribe {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.fa-bars {
+  font-size: 1.3rem;
 }
 
 .mobile-tablet-navbar .font-icons {
@@ -136,7 +144,7 @@ h5 a {
 
 @media (min-width: 768px) {
   .login {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
 
   img {
@@ -196,9 +204,9 @@ h5 a {
     border-left: 15px solid transparent;
     border-right: 0 solid transparent;
     height: 0;
-    width: 80px;
-    top: 1rem;
-    right: -10.3rem;
+    width: 70px;
+    top: -0.1rem;
+    right: -12.2rem;
   }
 
   #search {
@@ -277,7 +285,6 @@ h5 a {
 
 .sub {
   font-size: 16px;
-  color: #f72210;
 }
 
 .subcribe {
@@ -307,4 +314,23 @@ h5 a {
 
 .info-sub {
   bottom: 20px;
+}
+
+.debate img {
+  width: 64px;
+  height: 64px;
+}
+
+.media-1 img {
+  width: 95px;
+  height: 95px;
+}
+
+.form-logo img {
+  height: 30px;
+}
+
+.in-the-magazine-logo,
+.editors-pic-logo {
+  width: 25px;
 }
