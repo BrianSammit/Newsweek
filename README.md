@@ -12,7 +12,7 @@ The Newsweek page clone is the 7th collaborative project from the Microverse pro
  - GitHub
 
 ## Demo Link:
-[You can find the project live here](https://raw.githack.com/BrianSammit/Newsweek/features/index.html)
+[You can find the project live here](https://rawcdn.githack.com/BrianSammit/Newsweek/8b4586f4f2e07379f581aceee8fbe6b92b45d2bb/index.html)
 
 ## Authors  
 
