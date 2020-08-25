@@ -209,8 +209,8 @@ h5 a {
     border-right: 0 solid transparent;
     height: 0;
     width: 68px;
-    top: 1rem;
-    right: -12.35rem;
+    top: -1px;
+    right: -12.2rem;
   }
 
   #search {
