@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f6;
+}
+
+nav {
+  background-color: #f72210;
+}
+
+img {
+  cursor: pointer;
+}
+
+.black-color {
+  color: #000;
+}
+
+.red-color {
+  color: #f72210;
+}
+
+.relative {
+  position: relative;
+}
+
+.logo-box img {
+  height: 40px;
+}
+
+.fa-user {
+  font-size: 1.3rem;
+}
+
+.mobile-tablet-navbar {
+  height: 3rem;
+}
+
+.mobile-tablet-navbar .subscribe {
+  font-size: 0.8rem;
+}
+
+.fa-bars {
+  font-size: 1.3rem;
+}
+
+.mobile-tablet-navbar .font-icons {
+  font-size: 0.6rem;
+}
+
+.h2-div {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.wrap {
+  border-radius: 0;
+}
+
+span {
+  cursor: pointer;
+}
+
+.wrap span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 15px;
+}
+
+.h5-a {
+  font-size: 22px;
+}
+
+.h5-a:hover {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+.card-text {
+  font-size: 13px;
+}
+
+.opinion img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.more-stories img {
+  width: 64px;
+  height: 64px;
+}
+
+.form-to-5 {
+  margin: auto;
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+
+.cat-cov {
+  padding: 2px 5px;
+  color: white;
+  background-color: #f72210;
+}
+
+h5 a {
+  font-size: 16px;
+  color: black;
+}
+
+.cat-hea {
+  padding: 2px 5px;
+}
+
+.category {
+  font-size: 16px;
+}
+
+.hr-rule {
+  background-color: #9a9a9a;
+  height: 10px;
+}
+
+.footer-social-media i {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .gap::before {
+    content: "";
+    display: block;
+    height: 18px;
+    background-color: #f4f5f7;
+    border-top: 1px solid #e2e2e2;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    right: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login {
+    font-size: 1.3rem;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  .logo-box img {
+    width: 65%;
+  }
+
+  .wrap span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+
+  .size-fifty {
+    width: 50%;
+  }
+
+  .cel {
+    width: 100%;
+    max-width: 191px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  }
+}
+
+@media (min-width: 992px) {
+  .size-fifty {
+    width: 100%;
+  }
+
+  .desktop-navbar {
+    height: 6rem;
+  }
+
+  .links-on-desktop ul li a {
+    text-decoration: none;
+  }
+
+  .links-on-desktop .bottom-bar {
+    width: 60%;
+  }
+
+  .links-on-desktop .bottom-bar li a {
+    color: #8f8e92;
+  }
+
+  .trapezium {
+    border-top: 16px solid #f72210;
+    border-left: 15px solid transparent;
+    border-right: 0 solid transparent;
+    height: 0;
+    width: 68px;
+    top: -1px;
+    right: -12.2rem;
+  }
+
+  #search {
+    right: 1.5rem;
+    color: #8f8e92;
+  }
+}
+
+.line {
+  height: 5px;
+  margin: 10px 0;
+  background-color: rgba(117, 117, 117, 0.4);
+}
+
+.debate h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+}
+
+.opinion h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+}
+
+.media-body p {
+  font-size: 14px;
+  color: #555;
+}
+
+.vs {
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  top: -2rem;
+}
+
+.more-stories h5 {
+  font-size: 17px;
+}
+
+.more-stories p {
+  font-size: 13px;
+}
+
+.the-magazine-title {
+  font-size: 19px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.features {
+  font-size: 18px;
+}
+
+.wrap-red span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #f72210;
+  padding: 5px 15px;
+}
+
+.wrap-red {
+  border-radius: 0;
+}
+
+.editors-pic a {
+  font-size: 20px;
+}
+
+.sub {
+  font-size: 16px;
+}
+
+.subcribe {
+  background-color: #f4f5f6;
+}
+
+.sub-new button {
+  background-color: #f72210;
+}
+
+.other-img {
+  vertical-align: middle;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+
+.trump-img {
+  vertical-align: middle;
+  right: 0;
+  top: 12px;
+}
+
+.info-trump a {
+  font-size: 20px;
+}
+
+.info-sub {
+  bottom: 20px;
+}
+
+.debate img {
+  width: 64px;
+  height: 64px;
+}
+
+.media-1 img {
+  width: 95px;
+  height: 95px;
+}
+
+.form-logo img {
+  height: 30px;
+}
+
+.in-the-magazine-logo,
+.editors-pic-logo {
+  width: 25px;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
