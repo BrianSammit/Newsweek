@@ -14,6 +14,10 @@ nav {
   background-color: #f72210;
 }
 
+img {
+  cursor: pointer;
+}
+
 .logo-box img {
   width: 100%;
 }
@@ -64,10 +68,6 @@ span {
 
 .card-text {
   font-size: 13px;
-}
-
-img {
-  cursor: pointer;
 }
 
 .opinion img {
