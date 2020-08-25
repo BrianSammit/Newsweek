@@ -18,6 +18,18 @@ img {
   cursor: pointer;
 }
 
+.black-color {
+  color: #000;
+}
+
+.red-color {
+  color: #f72210;
+}
+
+.relative {
+  position: relative;
+}
+
 .logo-box img {
   width: 100%;
 }
@@ -39,7 +51,6 @@ img {
 }
 
 .wrap {
-  position: relative;
   border-radius: 0;
 }
 
@@ -51,14 +62,12 @@ span {
   position: absolute;
   bottom: 0;
   left: 0;
-  color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 15px;
 }
 
 .h5-a {
   font-size: 22px;
-  color: #000;
 }
 
 .h5-a:hover {
@@ -98,10 +107,6 @@ h5 a {
   color: black;
 }
 
-.cat-hea a {
-  color: #f72210;
-}
-
 .cat-hea {
   padding: 2px 5px;
 }
@@ -113,10 +118,6 @@ h5 a {
 .hr-rule {
   background-color: #9a9a9a;
   height: 10px;
-}
-
-.gap {
-  position: relative;
 }
 
 .footer-social-media i {
@@ -142,6 +143,10 @@ h5 a {
     font-size: 0.8rem;
   }
 
+  img {
+    cursor: pointer;
+  }
+
   .logo-box img {
     width: 65%;
   }
@@ -150,7 +155,6 @@ h5 a {
     position: absolute;
     bottom: 0;
     left: 0;
-    color: #f72210;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 5px 5px;
     font-size: 13px;
@@ -183,10 +187,6 @@ h5 a {
     text-decoration: none;
   }
 
-  .links-on-desktop .upper-bar li a {
-    color: #000;
-  }
-
   .links-on-desktop .bottom-bar {
     width: 60%;
   }
@@ -201,13 +201,11 @@ h5 a {
     border-right: 0 solid transparent;
     height: 0;
     width: 80px;
-    position: relative;
     top: 1rem;
     right: -10.3rem;
   }
 
   #search {
-    position: relative;
     right: 1.5rem;
     color: #8f8e92;
   }
@@ -221,13 +219,11 @@ h5 a {
 
 .debate h5 {
   font-family: "Roboto Condensed", sans-serif;
-  color: #000;
   font-size: 17px;
 }
 
 .opinion h5 {
   font-family: "Roboto Condensed", sans-serif;
-  color: #000;
   font-size: 17px;
 }
 
@@ -236,12 +232,7 @@ h5 a {
   color: #555;
 }
 
-.span-debate {
-  color: #000;
-}
-
 .vs {
-  position: relative;
   z-index: 1;
   width: 32px;
   height: 32px;
@@ -263,7 +254,6 @@ h5 a {
 }
 
 .the-magazine-title {
-  color: #000;
   font-size: 19px;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -282,7 +272,6 @@ h5 a {
 }
 
 .wrap-red {
-  position: relative;
   border-radius: 0;
 }
 
@@ -303,10 +292,6 @@ h5 a {
   background-color: #f72210;
 }
 
-.container-img {
-  position: relative;
-}
-
 .other-img {
   vertical-align: middle;
   position: absolute;
@@ -316,7 +301,6 @@ h5 a {
 
 .trump-img {
   vertical-align: middle;
-  position: relative;
   right: 0;
   top: 12px;
 }
@@ -326,10 +310,5 @@ h5 a {
 }
 
 .info-sub {
-  position: relative;
   bottom: 20px;
-}
-
-.h5-new {
-  color: #000;
 }
