@@ -22,7 +22,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <title>NewsWeek - News</title>
   </head>
-  <body>
+  <body class="body container-xl-fluid">
     <!--Column 1-->
 
     <!--Top story  (Hidden on tablet and desktop)-->
@@ -45,17 +45,17 @@
 
     <!-- ========= Navbar container ========= -->
 
-    <nav class="d-flex align-items-center align-content-center container-xl">
+    <nav class="nav container-fluid">
       <!-- Mobile & Tablet navbar -->
       <div
-        class="mobile-tablet-navbar container-fluid container-xl d-lg-none d-flex justify-content-between align-items-center"
+        class="mobile-tablet-navbar d-lg-none d-flex justify-content-between align-items-center container-fluid"
       >
         <div class="logo-box w-25 d-flex">
           <a href="#">
             <img src="./images/newsweek-logo.png" alt="" />
           </a>
         </div>
-        <ul class="d-flex justify-content-end align-items-center mt-2">
+        <ul class="d-flex justify-content-end align-items-center mt-2 mr-3">
           <li class="nav-link d-md-none mt-2 p-0">
             <a href="#" class=""
               ><i class="fa fa-user text-white" aria-hidden="true"></i
@@ -82,10 +82,10 @@
       <!-- End of Mobile & Tablet navbar -->
       <!-- Red Desktop Navbar -->
       <div
-        class="desktop-navbar container-fluid container-xl d-none d-lg-flex justify-content-between align-items-center"
+        class="desktop-navbar d-none d-lg-flex justify-content-between align-items-center"
       >
         <div class="weather-info text-white">
-          <ul class="list-inline">
+          <ul class="list-inline ml-3">
             <li class="font-weight-bold">
               <i class="fa fa-cloud" aria-hidden="true"></i> 28°Kigali, RW
             </li>
@@ -117,7 +117,7 @@
 
       <!-- End of Red Desktop Navbar -->
     </nav>
-    <div class="navbar-container container-xl">
+    <div class="navbar-container bg-white container-fluid pb-md-1">
       <div class="links-on-desktop">
         <ul
           class="upper-bar d-none d-lg-flex list-inline justify-content-between align-items-center border-1 mt-3 font-weight-bold"
@@ -176,7 +176,7 @@
     </div>
     <!-- ========= End of Navbar container ========= -->
 
-    <main class="main container-xl">
+    <main class="main bg-white container-fluid pb-4">
       <div class="wrapper-top-content colwrap row justify-content-around">
         <div class="left-column col-md-5 col-lg-3">
           <!--Top story top/left-->
@@ -1926,9 +1926,9 @@
           </div>
         </div>
       </section>
+      <hr />
     </main>
-    <hr />
-    <footer class="container-xl">
+    <footer class="container-fluid bg-white pt-2">
       <div class="d-md-flex justify-content-between">
         <ul
           class="list-inline d-md-flex w-50 justify-content-between align-items-end"
